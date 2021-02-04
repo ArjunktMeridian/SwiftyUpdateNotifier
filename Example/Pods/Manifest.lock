@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyUpdateNotifier (0.1.0)
+
+DEPENDENCIES:
+  - SwiftyUpdateNotifier (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftyUpdateNotifier:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftyUpdateNotifier: cfb820a38544755e7a1467b1d81fac8c780178ef
+
+PODFILE CHECKSUM: 9d69f534699f37d2b98dc3ae0078b6bbffbac21b
+
+COCOAPODS: 1.10.0

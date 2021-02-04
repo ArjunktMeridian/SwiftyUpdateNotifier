@@ -12,15 +12,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		16E30202962AB9CD49A4996B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		16E30202962AB9CD49A4996B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* SwiftyUpdateNotifier_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyUpdateNotifier_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		912E31506E3EE1DD0FA90F12 /* Pods_SwiftyUpdateNotifier_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyUpdateNotifier_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A94DA2E21DB83AE6DD6753B6 /* Pods-SwiftyUpdateNotifier_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyUpdateNotifier_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyUpdateNotifier_Tests/Pods-SwiftyUpdateNotifier_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AE5DC33DF6C62E0DB2ED78D7 /* SwiftyUpdateNotifier.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftyUpdateNotifier.podspec; path = ../SwiftyUpdateNotifier.podspec; sourceTree = "<group>"; };
+		AE5DC33DF6C62E0DB2ED78D7 /* SwiftyUpdateNotifier.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftyUpdateNotifier.podspec; path = ../SwiftyUpdateNotifier.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D40BE805BC2E13A4F4E2D02B /* Pods-SwiftyUpdateNotifier_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyUpdateNotifier_Tests.release.xcconfig"; path = "Target Support Files/Pods-SwiftyUpdateNotifier_Tests/Pods-SwiftyUpdateNotifier_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F6CE2ACAAD96136C2410ACAE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F6CE2ACAAD96136C2410ACAE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,6 @@
 				A94DA2E21DB83AE6DD6753B6 /* Pods-SwiftyUpdateNotifier_Tests.debug.xcconfig */,
 				D40BE805BC2E13A4F4E2D02B /* Pods-SwiftyUpdateNotifier_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

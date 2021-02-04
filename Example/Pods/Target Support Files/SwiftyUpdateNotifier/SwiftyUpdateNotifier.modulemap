@@ -1,0 +1,6 @@
+framework module SwiftyUpdateNotifier {
+  umbrella header "SwiftyUpdateNotifier-umbrella.h"
+
+  export *
+  module * { export * }
+}
