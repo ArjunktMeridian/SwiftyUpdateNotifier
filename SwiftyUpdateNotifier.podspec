@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = 'SwiftyUpdateNotifier is a easy to use swift library for get notified when new update of the app is available'
 
-  s.homepage         = 'https://github.com/arjun.kt/SwiftyUpdateNotifier'
+  s.homepage         = 'https://github.com/ArjunktMeridian/SwiftyUpdateNotifier'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'arjun.kt' => 'arjun.kt@meridian.net.in' }
-  s.source           = { :git => 'https://github.com/arjun.kt/SwiftyUpdateNotifier.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ArjunktMeridian/SwiftyUpdateNotifier.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
