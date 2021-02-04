@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = SwiftyUpdateNotifier is a easy to use swift library for get notified when new update of the app is available
+  s.description      = 'SwiftyUpdateNotifier is a easy to use swift library for get notified when new update of the app is available'
 
   s.homepage         = 'https://github.com/arjun.kt/SwiftyUpdateNotifier'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -29,6 +29,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
 
   s.source_files = 'Classes/**/*.swift'
+  s.swift_version = '5.0'
   
   # s.resource_bundles = {
   #   'SwiftyUpdateNotifier' => ['SwiftyUpdateNotifier/Assets/*.png']
