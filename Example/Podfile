@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SwiftyUpdateNotifier_Tests' do
+  pod 'SwiftyUpdateNotifier', :path => '../'
+  
+  
+end
