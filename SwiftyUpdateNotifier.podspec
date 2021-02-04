@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'SwiftyUpdateNotifier/Classes/**/*'
+  s.source_files = 'Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'SwiftyUpdateNotifier' => ['SwiftyUpdateNotifier/Assets/*.png']
