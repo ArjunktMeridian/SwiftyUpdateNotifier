@@ -8,17 +8,9 @@
 import Foundation
 import UIKit
 
-extension UIViewController {
-    func checkVersion(code: CountryCode, appId: String, window: UIWindow, versionLocal: String, appstoreUrl: String, updationTitle: String, updationMessage: String, callback: @escaping (Bool)->Void) {
-        VersionCheck.shared.isUpdateAvailable(code: code, appId: appId, window: window, versionLocal: versionLocal, appstoreUrl: appstoreUrl, updationTitle: updationTitle, updationMessage: updationMessage) { (val) in
-            callback(val)
-        }
-    }
-}
-
-class SwiftyUpdateNotifier {
+public class SwiftyUpdateNotifier {
     
-    func checkVersion(code: CountryCode, appId: String, window: UIWindow, versionLocal: String, appstoreUrl: String, updationTitle: String, updationMessage: String, callback: @escaping (Bool)->Void) {
+    public static func checkVersion(code: CountryCode, appId: String, window: UIWindow, versionLocal: String, appstoreUrl: String, updationTitle: String, updationMessage: String, callback: @escaping (Bool)->Void) {
         VersionCheck.shared.isUpdateAvailable(code: code, appId: appId, window: window, versionLocal: versionLocal, appstoreUrl: appstoreUrl, updationTitle: updationTitle, updationMessage: updationMessage) { (val) in
             callback(val)
         }

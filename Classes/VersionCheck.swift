@@ -8,11 +8,11 @@
 import Foundation
 import UIKit
 
-class VersionCheck {
+public class VersionCheck {
     
     static let shared = VersionCheck()
     
-    func isUpdateAvailable(code: CountryCode, appId: String, window: UIWindow, versionLocal: String, appstoreUrl: String, updationTitle: String, updationMessage: String, callback: @escaping (Bool)->Void) {
+    public func isUpdateAvailable(code: CountryCode, appId: String, window: UIWindow, versionLocal: String, appstoreUrl: String, updationTitle: String, updationMessage: String, callback: @escaping (Bool)->Void) {
         
         let repository = Repository(apiClient: APIClient(), url: "http://itunes.apple.com/\(code.rawValue)/lookup?id=\(appId)")
         
@@ -66,7 +66,7 @@ class VersionCheck {
 }
 
 
-enum CountryCode : String {
+public enum CountryCode : String {
     case india = "in"
     case uae = "ae"
 }
